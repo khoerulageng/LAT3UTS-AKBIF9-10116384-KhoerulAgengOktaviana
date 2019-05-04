@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LatihanUTS</string>
+
+    <string name="ob_header1">"PLAYERUNKNOWN'S \n BATTLEGROUNDS"</string>
+    <string name="ob_header2">"PLAYERUNKNOWN'S \n BATTLEGROUNDS MOBILE"</string>
+    <string name="ob_header3">DOTA 2</string>
+
+    <string name="ob_desc1">Sebuah permainan dengan cara bertahan hidup</string>
+    <string name="ob_desc2">Sebuah permainan dengan cara bertahan hidup dengan spesifikasi lebih ringan</string>
+    <string name="ob_desc3">Permainan ini bergenre MMORPG dengan player sebanyak 5 vs 5</string>
+    <string name="aboutme">Saya adalah salah satu mahasiswa jurusan teknik informatika Universitas Komputer Indonesia, saya lahir pada 1 oktober 1998. Saya hidup dengan banyak cita cita termasuk sebagai programmer ilmu dari kampus menurut saya itu tidak cukup untuk bekal kedepan nanti</string>
+
+    <string name="home">Home</string>
+    <string name="daily">Daily</string>
+    <string name="gallery">Gallery</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+
+    <string name="contact">Contact and Social Media</string>
+
+    <string name="googleMapsKey">AIzaSyBZ8hJKohardoomH55v1_REcTubvZhIBFA</string>
+
+</resources>

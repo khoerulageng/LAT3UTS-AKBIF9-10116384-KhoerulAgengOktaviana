@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="@drawable/gradient_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_width="1dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="26dp"
+                    app:civ_border_color="#000"/>
+
+                <TextView
+                    android:id="@+id/TxtView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khoerul Ageng Oktaviana"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/clicker_script"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="14.5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="35.6dp"
+                    android:background="@drawable/rectangle">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="205dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="19dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20.3dp"
+                            android:gravity="center_horizontal"
+                            android:text="About Me"
+                            android:fontFamily="@font/bungee_shade"
+                            android:textColor="#333232"
+                            android:textSize="13.7sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/TxtView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12.3dp"
+                            android:layout_marginTop="10dp"
+                            android:textAlignment="center"
+                            android:text="@string/aboutme"
+                            android:fontFamily="@font/wellfleet"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="14.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="35.6dp"
+                    android:background="@drawable/rectangle">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="19dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20.3dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/contact"
+                            android:fontFamily="@font/bungee_shade"
+                            android:textStyle="bold"
+                            android:textColor="#333232"
+                            android:textSize="13.7sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/imgEmail"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_marginTop="12.3dp"
+                                android:background="@drawable/ic_gmail" />
+
+                            <TextView
+                                android:id="@+id/txtEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="kherulageng1998@gmail.com"
+                                android:layout_marginTop="12.3dp"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_toRightOf="@+id/imgEmail"
+                                android:fontFamily="@font/wellfleet"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/imgInstagram"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_marginTop="12.3dp"
+                                android:background="@drawable/ic_instagram"
+                                android:layout_below="@id/imgEmail"/>
+
+                            <TextView
+                                android:id="@+id/txtInstagram"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="khoerulageng"
+                                android:layout_marginTop="12.3dp"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_toRightOf="@+id/imgInstagram"
+                                android:layout_below="@id/imgEmail"
+                                android:fontFamily="@font/wellfleet"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/imgFacebook"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_marginTop="12.3dp"
+                                android:background="@drawable/ic_facebook"
+                                android:layout_below="@id/imgInstagram"/>
+
+                            <TextView
+                                android:id="@+id/txtFacebook"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Khoerul Ageng Oktaviana"
+                                android:layout_marginTop="12.3dp"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_toRightOf="@+id/imgFacebook"
+                                android:layout_below="@id/imgInstagram"
+                                android:fontFamily="@font/wellfleet"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:id="@+id/map"
+                            android:name="com.google.android.gms.maps.SupportMapFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+
+                            android:layout_marginTop="10dp"
+                            tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+
+                        <FrameLayout
+                            android:layout_width="50.7dp"
+                            android:layout_height="50.3dp"
+                            android:layout_gravity="bottom|right"
+                            android:layout_marginTop="35.8dp">
+
+
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="90dp"
+                android:layout_height="41dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20.3dp"
+                android:layout_marginBottom="16.7dp"
+                android:background="@drawable/rectangle"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:background="@drawable/rectangle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
